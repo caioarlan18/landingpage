@@ -1,0 +1,140 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+    img.mob {
+        display: none;
+    }
+
+    img.desk {
+        display: block;
+    }
+
+    .main-1 video {
+        width: 400px;
+        height: 100%;
+
+
+    }
+
+    .main-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 100px;
+        padding-right: 200px;
+    }
+
+    .texto-principal {
+        margin-left: 100px;
+    }
+
+    .texto-principal h1 {
+        text-align: left;
+        font-size: 45px;
+        width: 90%;
+    }
+
+    .texto-principal p {
+        text-align: left;
+        width: 90%;
+    }
+
+    button.bu-1 {
+        width: 90%;
+    }
+
+    .beneficios h1 {
+        font-size: 50px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .beneficios p {
+        font-size: 20px;
+    }
+
+    .sec-beneficios {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sec-beneficios-1 {
+        width: 20%;
+        padding: 10px;
+
+
+    }
+
+    .sec-beneficios-1 h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .bu-bene button {
+        margin-top: 50px;
+    }
+
+    .sec-usabilidade {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .sec-usabilidade-1 {
+        width: 40%;
+        padding: 15px;
+
+    }
+
+    .sec-usabilidade-1 h1 {
+        font-size: 25px;
+    }
+
+
+
+    .usabilidade h1 {
+        font-size: 45px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .usabilidade-2 {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .depoimentos h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+
+    .depoimentos p {
+        font-size: 20px;
+    }
+
+    .last-1 img {
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .last-2 h2 {
+        font-size: 30px
+    }
+
+    .last-2 h1 {
+        font-size: 140px;
+    }
+
+    .last-3 h1 {
+        font-size: 35px;
+    }
+
+    .last-3 h2 {
+        font-size: 20px
+    }
+
+    .last-4 img {
+        width: 40%;
+    }
+}
