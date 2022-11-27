@@ -88,18 +88,20 @@ a {
     background-color: white;
     margin-top: 20px;
     height: 140px;
-    width: 80%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     align-items: center;
+    padding: 10px;
 
 }
 
 .sec-beneficios-1 h1 {
     font-family: montserrat;
-    margin-top: 40px;
+    text-align: center;
     font-size: 30px;
+    margin-top: 15px;
 
 }
 
@@ -117,7 +119,7 @@ a {
 }
 
 .usabilidade-1 img {
-    width: 85%;
+    width: 80%;
     display: flex;
     margin-top: 40px;
 }
@@ -130,8 +132,10 @@ a {
 .sec-usabilidade-1 {
     background-color: #251E23;
     margin-top: 20px;
+    justify-content: center;
     height: 140px;
-    width: 100%;
+    text-align: center;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -267,6 +271,12 @@ button.slick-prev {
     margin-bottom: 40px;
 }
 
+.ft-depoimentos img {
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .bu-bene {
     -webkit-animation: pulse 1s ease infinite;
