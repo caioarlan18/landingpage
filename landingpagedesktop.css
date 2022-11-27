@@ -134,7 +134,69 @@
         font-size: 20px
     }
 
+    .ft-depoimentos img {
+        width: 50%;
+    }
+
     .last-4 img {
         width: 40%;
+    }
+
+    .sec-usabilidade {
+        max-width: 1700px;
+    }
+
+    .main-1 {
+        max-width: 1600px;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:653px) {
+    .sec-beneficios-1 {
+        width: 200px;
+    }
+
+    .sec-usabilidade-1 {
+        width: 150px;
+    }
+
+    button {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .last-2 h1 {
+        font-size: 65px;
+    }
+
+    .last-2 h2 {
+        font-size: 18px;
+    }
+
+    .last-3 h2 {
+        font-size: 15px;
+    }
+
+    .depoimentos h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .depoimentos p {
+        font-size: 15px;
+    }
+
+    .beneficios p {
+        font-size: 15px;
+    }
+
+    .main-1 h1 {
+        font-size: 32px;
+    }
+
+
+
+    .main-1 p {
+        font-size: 17px;
     }
 }
