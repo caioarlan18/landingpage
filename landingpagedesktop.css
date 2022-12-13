@@ -104,14 +104,6 @@
         flex-wrap: wrap;
     }
 
-    .depoimentos h1 {
-        font-size: 45px;
-        margin-top: 100px;
-    }
-
-    .depoimentos p {
-        font-size: 20px;
-    }
 
     .last-1 img {
         width: 50%;
@@ -134,9 +126,7 @@
         font-size: 20px
     }
 
-    .ft-depoimentos img {
-        width: 50%;
-    }
+
 
     .last-4 img {
         width: 40%;
@@ -187,14 +177,6 @@
         font-size: 15px;
     }
 
-    .depoimentos h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .depoimentos p {
-        font-size: 15px;
-    }
 
     .beneficios p {
         font-size: 15px;
