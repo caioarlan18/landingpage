@@ -160,22 +160,6 @@ a {
     margin-top: 20px;
 }
 
-.depoimentos h1 {
-    color: white;
-    font-family: montserrat;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 35px;
-    font-weight: 700;
-}
-
-.depoimentos p {
-    color: white;
-    text-align: center;
-    font-family: montserrat;
-    font-weight: 500;
-    margin-top: 10px;
-}
 
 .slider {
     width: 50%;
@@ -213,21 +197,14 @@ a {
     bottom: 20px;
 }
 
-button.slick-next {
-    background-color: transparent;
-    cursor: auto;
-    border: 0;
-}
-
-button.slick-prev {
-    background-color: transparent;
-    cursor: auto;
-    border: 0;
-}
-
 .last-1 img {
     width: 80%;
     display: flex;
+    margin-top: 100px;
+}
+
+.last button {
+    margin-bottom: 30px;
 }
 
 .last-2 {
@@ -268,110 +245,9 @@ button.slick-prev {
     width: 80%;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
-.ft-depoimentos img {
-    width: 80%;
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.bu-bene {
-    -webkit-animation: pulse 1s ease infinite;
-    -moz-animation: pulse 1s ease infinite;
-    -ms-animation: pulse 1s ease infinite;
-    -o-animation: pulse 1s ease infinite;
-    animation: pulse 1s ease infinite;
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        -webkit-transform: scale(1);
-    }
-
-    25% {
-        -webkit-transform: scale(1.1);
-    }
-
-    50% {
-        -webkit-transform: scale(1);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0% {
-        -moz-transform: scale(1);
-    }
-
-    25% {
-        -moz-transform: scale(1.1);
-    }
-
-    50% {
-        -moz-transform: scale(1);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-    }
-}
-
-@-ms-keyframes pulse {
-    0% {
-        -ms-transform: scale(1);
-    }
-
-    25% {
-        -ms-transform: scale(1.1);
-    }
-
-    50% {
-        -ms-transform: scale(1);
-    }
-
-    100% {
-        -ms-transform: scale(1);
-    }
-}
-
-@-o-keyframes pulse {
-
-    0% {
-        -o-transform: scale(1);
-    }
-
-    25% {
-        -o-transform: scale(1.1);
-    }
-
-    50% {
-        -o-transform: scale(1);
-    }
-
-    100% {
-        -o-transform: scale(1);
-    }
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 img.desk {
     display: none;
